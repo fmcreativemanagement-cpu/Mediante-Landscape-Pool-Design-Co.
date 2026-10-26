@@ -1,327 +1,640 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>The Founder's Story | Mediante Landscape &amp; Pool Design Co.</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "on-secondary-container": "#6d614a",
-                    "secondary-container": "#efdec1",
-                    "on-error-container": "#93000a",
-                    "surface": "#f8f9fa",
-                    "secondary": "#695d46",
-                    "on-tertiary": "#ffffff",
-                    "inverse-surface": "#2e3132",
-                    "outline-variant": "#c4c6cc",
-                    "surface-container-highest": "#e1e3e4",
-                    "outline": "#74777d",
-                    "on-error": "#ffffff",
-                    "on-background": "#191c1d",
-                    "primary-container": "#1a2a3a",
-                    "secondary-fixed": "#f1e0c3",
-                    "on-surface": "#191c1d",
-                    "surface-container-lowest": "#ffffff",
-                    "tertiary": "#091425",
-                    "on-primary-fixed-variant": "#384859",
-                    "on-tertiary-fixed": "#111c2c",
-                    "error": "#ba1a1a",
-                    "surface-container-high": "#e7e8e9",
-                    "on-primary-fixed": "#0c1d2c",
-                    "on-secondary-fixed-variant": "#504530",
-                    "secondary-fixed-dim": "#d5c5a9",
-                    "on-tertiary-fixed-variant": "#3c475a",
-                    "tertiary-container": "#1e293a",
-                    "surface-container-low": "#f3f4f5",
-                    "on-tertiary-container": "#8590a5",
-                    "primary-fixed": "#d3e4fa",
-                    "error-container": "#ffdad6",
-                    "surface-dim": "#d9dadb",
-                    "primary-fixed-dim": "#b7c8dd",
-                    "on-secondary-fixed": "#231a08",
-                    "inverse-primary": "#b7c8dd",
-                    "primary": "#041525",
-                    "surface-container": "#edeeef",
-                    "surface-bright": "#f8f9fa",
-                    "surface-tint": "#506072",
-                    "on-surface-variant": "#44474c",
-                    "on-secondary": "#ffffff",
-                    "background": "#f8f9fa",
-                    "on-primary-container": "#8191a5",
-                    "surface-variant": "#e1e3e4",
-                    "on-primary": "#ffffff",
-                    "tertiary-fixed-dim": "#bcc7dd",
-                    "inverse-on-surface": "#f0f1f2",
-                    "tertiary-fixed": "#d8e3fa"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.125rem",
-                    "lg": "0.25rem",
-                    "xl": "0.5rem",
-                    "full": "0.75rem"
-            },
-            "spacing": {
-                    "margin-mobile": "24px",
-                    "margin-desktop": "64px",
-                    "container-max": "1280px",
-                    "gutter": "32px",
-                    "unit": "8px",
-                    "section-padding": "120px"
-            },
-            "fontFamily": {
-                    "headline-md": ["Playfair Display"],
-                    "label-caps": ["Inter"],
-                    "headline-lg": ["Playfair Display"],
-                    "technical-data": ["Inter"],
-                    "headline-lg-mobile": ["Playfair Display"],
-                    "display-lg-mobile": ["Playfair Display"],
-                    "display-lg": ["Playfair Display"],
-                    "body-md": ["Inter"],
-                    "body-lg": ["Inter"]
-            },
-            "fontSize": {
-                    "headline-md": ["32px", {"lineHeight": "1.4", "fontWeight": "500"}],
-                    "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600"}],
-                    "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}],
-                    "technical-data": ["14px", {"lineHeight": "1.5", "fontWeight": "500"}],
-                    "headline-lg-mobile": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
-                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
-                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
-            }
-          },
-        },
-      }
-    </script>
-<style>
-        [id] {
-            scroll-margin-top: 110px;
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-        }
-        .reveal-on-scroll {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-        }
-        .reveal-on-scroll.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
+<html lang="en"><head><title>Founder: Michael Mediante | Mediante Landscape &amp; Pool Design Co.</title><meta name="description" content="Meet Michael Mediante, landscape architect with 18+ years of resort and residential work in the UAE, now designing gardens and beach-entry pools from Zamboanga City."/><link rel="icon" type="image/png" href="assets/images/mediante-emblem.png"/><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "pure-white": "#FFFFFF", "secondary-container": "#feca5c", "on-primary-container": "#758599", "on-primary-fixed": "#0c1d2d", "on-tertiary": "#ffffff", "primary-fixed-dim": "#b7c8de", "on-secondary-fixed-variant": "#5c4200", "inverse-surface": "#2e3132", "tertiary-container": "#001f24", "on-secondary-fixed": "#261900", "surface-container-high": "#e7e8e9", "surface-container-highest": "#e1e3e4", "on-primary": "#ffffff", "champagne-gold": "#D9A93E", "primary": "#000000", "on-secondary": "#ffffff", "primary-fixed": "#d3e4fb", "background": "#f8f9fa", "on-error-container": "#93000a", "slate-muted": "#64748B", "tertiary-fixed-dim": "#7ed3e3", "lagoon-aqua": "#2E8B9A", "on-surface-variant": "#44474c", "ocean-navy-subtle": "#0D1B2A", "surface-dim": "#d9dadb", "primary-container": "#0c1d2d", "surface-variant": "#e1e3e4", "on-secondary-container": "#745400", "sand-light": "#EFDEC1", "outline": "#74777d", "on-tertiary-fixed": "#001f24", "secondary-fixed-dim": "#f1bf52", "outline-variant": "#c4c6cd", "inverse-on-surface": "#f0f1f2", "slate-charcoal": "#1E293B", "inverse-primary": "#b7c8de", "on-error": "#ffffff", "on-background": "#191c1d", "ocean-navy-deep": "#041525", "tertiary": "#000000", "surface-bright": "#f8f9fa", "on-primary-fixed-variant": "#38485a", "error-container": "#ffdad6", "surface": "#f8f9fa", "surface-tint": "#506073", "secondary-fixed": "#ffdea1", "tertiary-fixed": "#9eefff", "error": "#ba1a1a", "secondary": "#7a5900", "surface-container-low": "#f3f4f5", "bronze-taupe": "#6D614A", "surface-container-lowest": "#ffffff", "ivory-base": "#F8F9FA", "lagoon-seafoam": "#E0F2F1", "on-tertiary-fixed-variant": "#004e59", "on-surface": "#191c1d", "on-tertiary-container": "#348f9e", "surface-container": "#edeeef" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "margin-md": "3rem", "space-xl": "4rem", "space-md": "1.5rem", "gutter": "1.5rem", "margin": "1.5rem", "space-sm": "0.75rem", "space-xs": "0.375rem", "space-lg": "2.5rem", "gutter-lg": "2.5rem", "margin-lg": "6rem" }, "fontFamily": { "label-sm": [ "Inter" ], "body-sm": [ "Inter" ], "headline-xl": [ "Playfair Display" ], "body-md": [ "Inter" ], "headline-lg": [ "Playfair Display" ], "label-md": [ "Inter" ], "display-hero-mobile": [ "Playfair Display" ], "subhead-serif": [ "Playfair Display" ], "body-lg": [ "Inter" ], "headline-md": [ "Playfair Display" ], "eyebrow-caps": [ "Inter" ], "headline-xl-mobile": [ "Playfair Display" ], "display-hero": [ "Playfair Display" ] }, "fontSize": { "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-xl": [ "42px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "500" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "fontWeight": "500" } ], "label-md": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.08em", "fontWeight": "500" } ], "display-hero-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "subhead-serif": [ "19px", { "lineHeight": "28px", "fontWeight": "400" } ], "body-lg": [ "17px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-md": [ "24px", { "lineHeight": "32px", "fontWeight": "500" } ], "eyebrow-caps": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.22em", "fontWeight": "600" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "500" } ], "display-hero": [ "56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "600" } ] } } } }</script><style>[id]{scroll-margin-top:96px}</style>
 </head>
-<body class="bg-surface text-on-surface font-body-md selection:bg-secondary-container selection:text-on-secondary-container">
-<!-- TopNavBar -->
-<header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-md border-b border-secondary-container">
-<nav class="flex justify-between items-center px-margin-desktop py-6 max-w-container-max mx-auto">
-<a class="flex items-center gap-4" href="index.html">
-<span class="flex flex-col">
-<img alt="" class="h-7 md:h-8 w-auto self-start" src="assets/images/mediante-emblem.png"/>
-<span class="font-headline-md text-lg md:text-xl text-primary tracking-[0.22em] leading-none mt-1">MEDIANTE</span>
-<span class="mt-1.5 border-t border-[#D9A93E] pt-1 font-label-caps text-[7px] md:text-[8px] tracking-[0.26em] text-on-surface-variant leading-none">LANDSCAPE &amp; POOL DESIGN CO.</span>
-</span>
+<body class="bg-ivory-base font-body-md text-on-surface antialiased">
+<header class="fixed top-0 inset-x-0 z-50 bg-ocean-navy-deep/95 backdrop-blur-xl shadow-[0_4px_30px_rgba(4,21,37,0.12)]">
+<div class="h-20 max-w-[1320px] mx-auto px-6 lg:px-12 flex items-center justify-between">
+<a class="flex flex-col" href="index.html" aria-label="Mediante Landscape &amp; Pool Design Co. home">
+<img alt="" class="h-6 w-auto self-start" src="assets/images/mediante-emblem.png"/>
+<span class="font-headline-md text-[18px] leading-none tracking-[0.22em] text-pure-white mt-1">MEDIANTE</span>
+<span class="mt-1 border-t border-champagne-gold pt-1 font-label-sm text-[7px] leading-none tracking-[0.26em] text-sand-light">LANDSCAPE &amp; POOL DESIGN CO.</span>
 </a>
-<div class="hidden md:flex gap-gutter items-center">
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="index.html#portfolio">Portfolio</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="services.html">Services</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="beach-pool.html">Beach Pools</a>
-<a class="font-label-caps text-label-caps text-primary border-b-2 border-on-secondary-container pb-1" href="founder-story.html">Founder</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="beach-pool.html#process">Process</a>
-</div>
-<button class="bg-secondary-container text-on-secondary-container px-8 py-3 rounded-sm font-label-caps text-label-caps hover:bg-on-secondary-container hover:text-white transition-all scale-95 active:opacity-80">
-            Book Consultation
-        </button>
+<nav class="hidden lg:flex items-center gap-space-lg" aria-label="Main">
+<a class="font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold transition-colors" href="index.html#portfolio">Portfolio</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold transition-colors" href="services.html">Services</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold transition-colors" href="beach-pool.html">Beach Pools</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-champagne-gold transition-colors" href="founder-story.html" aria-current="page">Founder</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold transition-colors" href="beach-pool.html#process">Process</a>
 </nav>
+<div class="flex items-center gap-3">
+<a class="hidden sm:inline-flex items-center justify-center font-label-md text-label-md uppercase tracking-widest bg-champagne-gold text-ocean-navy-deep px-6 py-3 rounded hover:bg-sand-light transition-all shadow-[0_8px_20px_-4px_rgba(217,169,62,0.3)]" href="mailto:michael.mediante@gmail.com?subject=Consultation%20request%20%E2%80%93%20Mediante">Book Consultation</a>
+<details class="lg:hidden relative group">
+<summary class="list-none cursor-pointer w-11 h-11 flex items-center justify-center rounded text-pure-white hover:bg-pure-white/10 [&amp;::-webkit-details-marker]:hidden" aria-label="Open menu">
+<span class="material-symbols-outlined text-[26px] group-open:hidden">menu</span>
+<span class="material-symbols-outlined text-[26px] hidden group-open:inline">close</span>
+</summary>
+<div class="absolute right-0 top-14 w-72 bg-ocean-navy-deep rounded shadow-2xl px-6 py-4">
+<a class="block py-3 font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold border-b border-pure-white/10" href="index.html#portfolio">Portfolio</a>
+<a class="block py-3 font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold border-b border-pure-white/10" href="services.html">Services</a>
+<a class="block py-3 font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold border-b border-pure-white/10" href="beach-pool.html">Beach Pools</a>
+<a class="block py-3 font-label-md text-label-md uppercase tracking-widest text-champagne-gold border-b border-pure-white/10" href="founder-story.html" aria-current="page">Founder</a>
+<a class="block py-3 font-label-md text-label-md uppercase tracking-widest text-pure-white/70 hover:text-champagne-gold border-b border-pure-white/10" href="beach-pool.html#process">Process</a>
+<a class="mt-4 flex items-center justify-center font-label-md text-label-md uppercase tracking-widest bg-champagne-gold text-ocean-navy-deep px-6 py-3 rounded" href="mailto:michael.mediante@gmail.com?subject=Consultation%20request%20%E2%80%93%20Mediante">Book Consultation</a>
+</div>
+</details>
+</div>
+</div>
 </header>
-<main class="pt-32">
-<!-- Hero Section -->
-<section class="px-margin-desktop max-w-container-max mx-auto py-section-padding">
-<div class="grid grid-cols-12 gap-gutter items-center">
-<div class="col-span-12 md:col-span-7">
-<span class="font-label-caps text-label-caps text-secondary uppercase mb-6 block tracking-[0.2em]">The Visionary</span>
-<h1 class="font-display-lg text-display-lg text-primary mb-8 leading-tight">Michael Mediante</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">
-                        Redefining the relationship between architecture and nature. From the sprawling luxury of the Middle East to the coastal serenity of Zamboanga, Michael's journey is one of relentless precision and artistic tranquility.
-                    </p>
-<div class="flex gap-4">
-<div class="h-[1px] w-12 bg-secondary self-center"></div>
-<span class="font-technical-data text-technical-data italic text-secondary">Architect &amp; Lead Designer</span>
+<main class="w-full pt-20">
+<section class="relative w-full overflow-hidden bg-ivory-base pt-space-xl pb-margin-lg">
+<!-- Subtle architectural drafting background grid -->
+<div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-size: 48px 48px; background-image: linear-gradient(to right, #041525 1px, transparent 1px), linear-gradient(to bottom, #041525 1px, transparent 1px);"></div>
+<div class="relative max-w-[1320px] mx-auto px-6 lg:px-12">
+<!-- Section Header Overline -->
+<div class="flex items-center gap-space-sm mb-space-md">
+<span class="w-10 h-[1px] bg-champagne-gold"></span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.24em] uppercase">LEADERSHIP · 18+ YEARS IN LANDSCAPE ARCHITECTURE</span>
 </div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
+<!-- Left: Editorial Headline & Manifesto -->
+<div class="lg:col-span-7 flex flex-col pr-0 lg:pr-space-md">
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-ocean-navy-deep tracking-tight mb-space-md">
+            The Michael Mediante Standard: <br class="hidden xl:inline"/>
+<span class="font-subhead-serif italic font-normal text-bronze-taupe">From Dubai's Landmark Resorts to Private Sanctuary Living.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-slate-charcoal leading-relaxed mb-space-lg max-w-2xl">
+            Michael Mediante spent more than eighteen years planning, designing and delivering landscapes in the UAE, from concept masterplans for the Al Ain Zoo to completed pools and gardens at the Palm Jumeirah Hotel and Fairmont Palm. Mediante brings that resort-level discipline to private homes.
+          </p>
+<!-- Founder's Signed Quotation Card -->
+<div class="relative p-8 bg-surface-container-lowest shadow-sm rounded-xl mb-space-lg">
+<span class="material-symbols-outlined text-champagne-gold/30 text-5xl absolute -top-4 -left-2 select-none">format_quote</span>
+<blockquote class="relative z-10 font-subhead-serif text-subhead-serif italic text-ocean-navy-deep mb-space-sm">
+              “Design is not just about the pool; it’s about the dialogue between the water, the structure, and the soul of the home.”
+            </blockquote>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-ocean-navy-deep uppercase tracking-wider font-semibold">Michael Mediante</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-slate-muted">LANDSCAPE ARCHITECT &amp; FOUNDER</span>
 </div>
-<div class="col-span-12 md:col-span-5 aspect-[4/5] relative">
-<div class="absolute inset-0 border border-secondary-container translate-x-4 translate-y-4 -z-10"></div>
-<img alt="Michael Mediante, founder of Mediante Landscape &amp; Pool Design Co." class="w-full h-full object-cover rounded-sm shadow-xl shadow-primary/5" src="assets/images/michael-mediante.jpg"/>
-</div>
-</div>
-</section>
-<!-- The Journey -->
-<section class="bg-primary text-on-primary py-section-padding">
-<div class="px-margin-desktop max-w-container-max mx-auto">
-<div class="grid grid-cols-12 gap-gutter">
-<div class="col-span-12 md:col-span-4 mb-12 md:mb-0">
-<h2 class="font-headline-lg text-headline-lg mb-6">The Journey</h2>
-<div class="h-1 w-20 bg-secondary-container"></div>
-</div>
-<div class="col-span-12 md:col-span-8 space-y-12">
-<div class="reveal-on-scroll">
-<h3 class="font-headline-md text-headline-md mb-4 text-secondary-container">The Desert Blueprint</h3>
-<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed opacity-90">
-                                Michael spent over a decade as a lead architect for premier firms in Dubai and Qatar. Immersed in an environment where budget was secondary to ambition, he mastered the art of "technically rigorous" design. He didn't just build pools; he engineered aquatic sanctuaries in some of the world's most unforgiving climates.
-                            </p>
-</div>
-<div class="reveal-on-scroll">
-<h3 class="font-headline-md text-headline-md mb-4 text-secondary-container">The Local Innovation</h3>
-<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed opacity-90">
-                                Returning to Zamboanga, Michael identified a gap between traditional local landscaping and the international standards of luxury resorts. Mediante Landscape &amp; Pool Design Co. was born from the desire to bridge that gap—bringing global architectural discipline to the intimate scale of home and boutique spaces.
-                            </p>
+<div class="flex items-center gap-2">
+<span class="font-subhead-serif italic text-champagne-gold text-xl tracking-widest select-none">M. Mediante</span>
 </div>
 </div>
 </div>
+<!-- Key Provenance Stat Badges (Bento Strip) -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="p-5 bg-surface-container rounded-lg">
+<span class="font-headline-lg text-headline-lg text-ocean-navy-deep block font-serif">18+</span>
+<span class="font-label-sm text-label-sm text-slate-muted uppercase block mt-1">Years in landscape architecture</span>
 </div>
-</section>
-<!-- Credentials Highlight: Bento Grid -->
-<section class="px-margin-desktop max-w-container-max mx-auto py-section-padding">
-<div class="text-center mb-16">
-<span class="font-label-caps text-label-caps text-secondary mb-4 block">International Heritage</span>
-<h2 class="font-headline-lg text-headline-lg text-primary">Credentialed Excellence</h2>
+<div class="p-5 bg-surface-container rounded-lg">
+<span class="font-headline-lg text-headline-lg text-ocean-navy-deep block font-serif">9</span>
+<span class="font-label-sm text-label-sm text-slate-muted uppercase block mt-1">Featured UAE projects in his portfolio</span>
 </div>
-<div class="grid grid-cols-12 gap-4 md:grid-rows-2 h-[800px]">
-<!-- LegoLand Dubai -->
-<div class="col-span-12 md:col-span-8 md:row-span-1 relative group overflow-hidden rounded-sm border border-secondary-container">
-<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Completed beach-entry family pool at a Palm Jumeirah resort: a sand-finish zero-entry shoreline meeting turquoise water, lined with white loungers and umbrellas." style="background-image: url('assets/images/portfolio/palm-jumeirah-beach-pool.jpg')"></div>
-<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-<div class="text-white">
-<p class="font-label-caps text-label-caps mb-2">Completed Project &middot; Dubai</p>
-<h4 class="font-headline-md text-headline-md">Palm Jumeirah Hotel &mdash; Beach-Entry Family Pool</h4>
+<div class="p-5 bg-surface-container rounded-lg">
+<span class="font-headline-lg text-headline-lg text-ocean-navy-deep block font-serif">IFC</span>
+<span class="font-label-sm text-label-sm text-slate-muted uppercase block mt-1">Construction-issue drawings delivered</span>
 </div>
 </div>
 </div>
-<!-- Royal Atlantis -->
-<div class="col-span-12 md:col-span-4 md:row-span-2 relative group overflow-hidden rounded-sm border border-secondary-container">
-<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Sunset over a newly built resort pool on the Jumeirah beachfront, palms and the Burj Al Arab reflected in still water." style="background-image: url('assets/images/portfolio/jumeirah-beachfront-sunset.jpg')"></div>
-<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-<div class="text-white">
-<p class="font-label-caps text-label-caps mb-2">18+ Years in the UAE</p>
-<h4 class="font-headline-md text-headline-md">Jumeirah Beachfront Works</h4>
+<!-- Right: Founder Portrait with Architectural Detailing -->
+<div class="lg:col-span-5 relative mt-6 lg:mt-0">
+<div class="relative z-10 w-full overflow-hidden rounded-xl shadow-xl bg-ocean-navy-subtle">
+<img alt="Portrait of Michael Mediante, landscape architect and founder of Mediante Landscape &amp; Pool Design Co." class="w-full h-auto object-cover object-top aspect-[4/5]" src="assets/images/michael-mediante.jpg" fetchpriority="high"/>
+<!-- Image Scrim & Technical Metadata Overlay -->
+<div class="absolute inset-0 bg-gradient-to-t from-ocean-navy-deep/90 via-transparent to-transparent flex flex-col justify-end p-8 text-pure-white">
+<div class="flex items-center gap-2 mb-2">
+<span class="w-2 h-2 rounded-full bg-champagne-gold animate-pulse"></span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-sand-light tracking-[0.2em] uppercase">MICHAEL MEDIANTE · FOUNDER</span>
+</div>
+<p class="font-body-sm text-body-sm text-surface-container-high leading-snug">
+                Landscape architect, now designing private gardens and beach pools from Zamboanga City.
+              </p>
 </div>
 </div>
+<!-- Layered Architectural Blueprint Spec Tag -->
+<div class="hidden sm:flex absolute -bottom-6 -left-6 z-20 bg-pure-white p-5 rounded-lg shadow-xl items-center gap-4 max-w-xs">
+<div class="w-12 h-12 rounded bg-lagoon-seafoam flex items-center justify-center text-lagoon-aqua">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
 </div>
-<!-- Qatar Hospitality -->
-<div class="col-span-12 md:col-span-4 md:row-span-1 relative group overflow-hidden rounded-sm border border-secondary-container">
-<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Completed lagoon-style swimming pool winding through lush gardens at the Fairmont Palm Residence, Dubai." style="background-image: url('assets/images/portfolio/fairmont-palm-residence.jpg')"></div>
-<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-<div class="text-white">
-<p class="font-label-caps text-label-caps mb-2">Completed Project &middot; Palm Jumeirah</p>
-<h4 class="font-headline-md text-headline-md">Fairmont Palm Residence</h4>
-</div>
-</div>
-</div>
-<!-- Technical Planning -->
-<div class="col-span-12 md:col-span-4 md:row-span-1 relative group overflow-hidden rounded-sm border border-secondary-container">
-<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Aerial concept masterplan rendering of the Al Ain Zoo and back-of-house development, showing winding waterways, exhibits, and planting." style="background-image: url('assets/images/portfolio/al-ain-zoo-masterplan.jpg')"></div>
-<div class="absolute inset-0 bg-primary/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-<div class="text-white">
-<p class="font-label-caps text-label-caps mb-2">Concept Masterplan</p>
-<h4 class="font-headline-md text-headline-md">Al Ain Zoo Development</h4>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-ocean-navy-deep uppercase tracking-wider">SELECTED WORK</span>
+<span class="font-body-sm text-body-sm text-slate-muted">Palm Jumeirah Hotel · Fairmont Palm · Al Ain Zoo</span>
 </div>
 </div>
-</div>
-</div>
-<div class="mt-12 flex justify-center">
-<a class="inline-flex items-center gap-4 text-primary font-label-caps text-label-caps group border-b border-transparent hover:border-primary pb-2 transition-all" href="assets/docs/Michael-Mediante-Portfolio.pdf" target="_blank" rel="noopener">
-                    View the Full Portfolio (PDF)
-                    <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
-</a>
-</div>
-</section>
-<!-- The Promise -->
-<section class="bg-surface-container-low py-section-padding">
-<div class="px-margin-desktop max-w-container-max mx-auto text-center">
-<div class="max-w-3xl mx-auto">
-<span class="material-symbols-outlined text-secondary-container text-5xl mb-8" style="font-variation-settings: 'FILL' 1;">format_quote</span>
-<h3 class="font-headline-lg text-headline-lg text-primary mb-10 leading-snug italic">
-                        "Applying International Discipline to Local Dreams."
-                    </h3>
-<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">
-                        Every project we undertake in Zamboanga is treated with the same meticulous standards Michael honed in the Middle East. We don't just build—we curate environments that enhance your lifestyle and endure for generations.
-                    </p>
-<div class="flex flex-col md:flex-row justify-center gap-gutter">
-<button class="bg-primary text-on-primary px-10 py-5 rounded-sm font-label-caps text-label-caps hover:bg-tertiary transition-all">
-                            Book a Consultation
-                        </button>
-<button class="border border-secondary text-primary px-10 py-5 rounded-sm font-label-caps text-label-caps hover:bg-secondary-container transition-all">
-                            Explore Our Process
-                        </button>
 </div>
 </div>
 </div>
 </section>
-</main>
-<!-- Footer -->
-<footer class="w-full py-section-padding px-margin-desktop flex flex-col md:flex-row justify-between items-start gap-gutter bg-primary">
-<div class="flex flex-col gap-6">
-<div class="flex items-center gap-4">
-<span class="flex flex-col">
-<img alt="" class="h-8 w-auto self-start" src="assets/images/mediante-emblem.png"/>
-<span class="font-headline-md text-xl text-on-primary tracking-[0.22em] leading-none mt-1">MEDIANTE</span>
-<span class="mt-1.5 border-t border-[#D9A93E] pt-1 font-label-caps text-[8px] tracking-[0.26em] text-[#D9A93E] leading-none">LANDSCAPE &amp; POOL DESIGN CO.</span>
-</span>
+
+<section class="w-full bg-surface-container-low py-margin-lg">
+<div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-margin-md">
+<div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.24em] uppercase block mb-2">CAREER</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-ocean-navy-deep">Eighteen Years, Concept to Completion</h2>
 </div>
-<p class="font-body-md text-body-md text-on-primary-container max-w-xs">
-                Architectural landscape and luxury pool design studio based in Zamboanga, Philippines.
+<p class="font-body-md text-body-md text-slate-muted max-w-md mt-4 md:mt-0">
+          Michael's work covers every stage of a landscape project: concept, construction drawings, budgets, materials and site supervision.
+        </p>
+</div>
+<!-- Timeline Grid Container -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Milestone 1 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold font-bold tracking-widest">CONCEPT DESIGN</span>
+<span class="material-symbols-outlined text-slate-muted group-hover:text-champagne-gold transition-colors">domain</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Concept &amp; Masterplanning</h3>
+<span class="font-label-sm text-label-sm text-lagoon-aqua uppercase tracking-wider block mb-4">Landscape Architect</span>
+<p class="font-body-md text-body-md text-slate-charcoal leading-relaxed">
+              Preliminary concept designs and aerial perspectives for large UAE developments, including the Al Ain Zoo &amp; Back of House area and the Al Safa Living project.
             </p>
 </div>
-<div class="grid grid-cols-2 gap-x-16 gap-y-4">
-<a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="founder-story.html">Design Philosophy</a>
-<a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="index.html#portfolio">International Portfolio</a>
-<a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Contact Us</a>
-<a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">WhatsApp Support</a>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-slate-muted">Al Ain &amp; Dubai, UAE</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">01</span>
 </div>
-<div class="flex flex-col gap-8 items-end">
-<div class="flex gap-4">
-<a class="w-10 h-10 rounded-full border border-on-primary-container flex items-center justify-center text-on-primary-container hover:bg-secondary-fixed hover:text-primary transition-all" href="#">
-<span class="material-symbols-outlined text-sm">public</span>
-</a>
-<a class="w-10 h-10 rounded-full border border-on-primary-container flex items-center justify-center text-on-primary-container hover:bg-secondary-fixed hover:text-primary transition-all" href="#">
-<span class="material-symbols-outlined text-sm">mail</span>
+</div>
+<!-- Milestone 2 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold font-bold tracking-widest">CONSTRUCTION DRAWINGS</span>
+<span class="material-symbols-outlined text-slate-muted group-hover:text-champagne-gold transition-colors">description</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Construction Documentation</h3>
+<span class="font-label-sm text-label-sm text-lagoon-aqua uppercase tracking-wider block mb-4">Landscape Architect</span>
+<p class="font-body-md text-body-md text-slate-charcoal leading-relaxed">
+              Issue-for-construction hardscape layouts for the African Safari and Dubai Safari projects, plus landscape master plans for private villas.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-slate-muted">Dubai, UAE</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">02</span>
+</div>
+</div>
+<!-- Milestone 3 -->
+<div class="group relative bg-surface-container-lowest p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold font-bold tracking-widest">COMPLETED WORK</span>
+<span class="material-symbols-outlined text-slate-muted group-hover:text-champagne-gold transition-colors">pool</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Resort Delivery</h3>
+<span class="font-label-sm text-label-sm text-lagoon-aqua uppercase tracking-wider block mb-4">Design &amp; Site Coordination</span>
+<p class="font-body-md text-body-md text-slate-charcoal leading-relaxed">
+              Completed landscapes at the Palm Jumeirah Hotel (family pool, kids' pool and club, planted retaining walls, beachside strand) and the Fairmont Palm Residence and Hotel.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-slate-muted">Palm Jumeirah, Dubai</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">03</span>
+</div>
+</div>
+<!-- Milestone 4 -->
+<div class="group relative bg-ocean-navy-deep text-pure-white p-8 rounded-xl shadow-xl flex flex-col justify-between h-full">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold font-bold tracking-widest">TODAY</span>
+<span class="material-symbols-outlined text-champagne-gold">water_voc</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-pure-white mb-3">Mediante</h3>
+<span class="font-label-sm text-label-sm text-champagne-gold uppercase tracking-wider block mb-4">Founder &amp; Lead Designer</span>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed">
+              Now based in Zamboanga City, Michael founded Mediante Landscape &amp; Pool Design Co. to bring resort-grade landscapes and beach-entry pools to private homes in the Philippines.
+            </p>
+</div>
+<div class="pt-6 mt-6 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-sand-light">Zamboanga City, PH</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">NOW</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="w-full bg-ivory-base py-margin-lg">
+<div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+<div class="max-w-2xl mb-margin-md">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.24em] uppercase block mb-2">HOW MICHAEL WORKS</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-ocean-navy-deep mb-4">Four Principles Behind Every Project</h2>
+<p class="font-body-lg text-body-lg text-slate-charcoal">
+          Drawn from eighteen years of hotel, resort and residential work in the UAE.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Tenet 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-ocean-navy-deep text-[28px]">route</span>
+</div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest uppercase block mb-2">01 / WHOLE PROJECT</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Concept to Completion</h3>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+              One designer from first concept through detailing, budget estimation, material purchasing and site supervision.
+            </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-champagne-gold"></span>
+<span class="font-label-sm text-label-sm text-ocean-navy-deep uppercase font-medium">One point of contact</span>
+</div>
+</div>
+<!-- Tenet 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-ocean-navy-deep text-[28px]">architecture</span>
+</div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest uppercase block mb-2">02 / TECHNICAL</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Code-Aware Detailing</h3>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+              Designs coordinated with engineering and architectural codes, so what's drawn can be built and approved.
+            </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-champagne-gold"></span>
+<span class="font-label-sm text-label-sm text-ocean-navy-deep uppercase font-medium">Engineering-coordinated</span>
+</div>
+</div>
+<!-- Tenet 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-ocean-navy-deep text-[28px]">eco</span>
+</div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest uppercase block mb-2">03 / SUSTAINABLE</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Built for the Climate</h3>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+              Planting, water and materials chosen for the local climate, with a focus on environmentally sustainable design and practical upkeep.
+            </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-champagne-gold"></span>
+<span class="font-label-sm text-label-sm text-ocean-navy-deep uppercase font-medium">Climate-appropriate planting</span>
+</div>
+</div>
+<!-- Tenet 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-lg bg-surface-container flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-ocean-navy-deep text-[28px]">landscape</span>
+</div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest uppercase block mb-2">04 / SITE</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-3">Designed for the Site</h3>
+<p class="font-body-md text-body-md text-slate-muted leading-relaxed">
+              Every layout responds to the site's levels, soil, sun, wind and existing trees, so the pool and garden feel like they belong.
+            </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-champagne-gold"></span>
+<span class="font-label-sm text-label-sm text-ocean-navy-deep uppercase font-medium">Site-specific design</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="w-full bg-surface-container-low py-margin-lg" id="projects">
+<div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between mb-space-lg gap-6">
+<div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.24em] uppercase block mb-2">FROM THE PORTFOLIO</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-ocean-navy-deep">Selected Projects</h2>
+</div>
+<div class="flex items-center flex-wrap gap-2 p-1 bg-surface-container rounded-lg" id="portfolio-filters" role="group" aria-label="Filter projects">
+<button class="px-5 py-2.5 rounded-md font-label-sm text-label-sm uppercase tracking-wider bg-ocean-navy-deep text-pure-white transition-all shadow-sm" data-filter="all" aria-pressed="true">All Work</button>
+<button class="px-5 py-2.5 rounded-md font-label-sm text-label-sm uppercase tracking-wider text-ocean-navy-deep hover:bg-surface-container-high transition-all" data-filter="completed" aria-pressed="false">Completed</button>
+<button class="px-5 py-2.5 rounded-md font-label-sm text-label-sm uppercase tracking-wider text-ocean-navy-deep hover:bg-surface-container-high transition-all" data-filter="concept" aria-pressed="false">Concept Designs</button>
+</div>
+</div>
+<div class="portfolio-item completed w-full bg-surface-container-lowest rounded-xl overflow-hidden shadow-md mb-gutter-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12">
+<div class="lg:col-span-8 relative group overflow-hidden">
+<img alt="Completed beach-entry family pool at the Palm Jumeirah Hotel, Dubai: a sand-finish shoreline meeting turquoise water, lined with loungers and umbrellas" class="w-full h-full object-cover min-h-[320px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105" src="assets/images/portfolio/palm-jumeirah-beach-pool.jpg" loading="lazy"/>
+<div class="absolute top-6 left-6 bg-ocean-navy-deep/80 backdrop-blur-md px-4 py-2 rounded text-pure-white flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-champagne-gold"></span>
+<span class="font-eyebrow-caps text-eyebrow-caps tracking-widest">FEATURED PROJECT</span>
+</div>
+</div>
+<div class="lg:col-span-4 p-8 lg:p-10 flex flex-col justify-between bg-surface-container-lowest">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest uppercase">PALM JUMEIRAH, DUBAI</span>
+<span class="font-label-sm text-label-sm text-slate-muted">COMPLETED</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-ocean-navy-deep mb-4">Palm Jumeirah Hotel: Family Pool</h3>
+<p class="font-body-md text-body-md text-slate-charcoal leading-relaxed mb-6">A beach-entry family pool with a sand-finish shoreline, set among planted rockwork, loungers and shade. Part of a wider set of completed landscape areas at the hotel, including the kids' pool and club, planted retaining walls and the beachside strand.</p>
+<div class="grid grid-cols-2 gap-3 mb-6">
+<div class="p-3 bg-surface-container rounded">
+<span class="font-label-sm text-label-sm text-slate-muted block">Pool type</span>
+<span class="font-headline-md text-headline-md text-ocean-navy-deep">Beach entry</span>
+</div>
+<div class="p-3 bg-surface-container rounded">
+<span class="font-label-sm text-label-sm text-slate-muted block">Setting</span>
+<span class="font-headline-md text-headline-md text-ocean-navy-deep">Resort hotel</span>
+</div>
+<div class="p-3 bg-surface-container rounded">
+<span class="font-label-sm text-label-sm text-slate-muted block">Scope</span>
+<span class="font-label-md text-label-md font-semibold text-ocean-navy-deep">Pools, planting, hardscape</span>
+</div>
+<div class="p-3 bg-surface-container rounded">
+<span class="font-label-sm text-label-sm text-slate-muted block">Status</span>
+<span class="font-label-md text-label-md font-semibold text-ocean-navy-deep">Completed</span>
+</div>
+</div>
+</div>
+<div class="pt-4 flex items-center justify-between">
+<span class="font-eyebrow-caps text-eyebrow-caps text-ocean-navy-deep font-bold">RESORT HOSPITALITY</span>
+<a class="inline-flex items-center gap-1 font-label-sm text-label-sm uppercase tracking-wider text-champagne-gold hover:text-ocean-navy-deep transition-colors" href="assets/docs/Michael-Mediante-Portfolio.pdf" target="_blank" rel="noopener">
+View in Portfolio <span class="material-symbols-outlined text-[16px]" aria-hidden="true">arrow_forward</span>
 </a>
 </div>
-<span class="font-body-md text-body-md text-on-primary-container">
-                © 2024 Mediante Landscape &amp; Pool Design Co. All rights reserved.
-            </span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="portfolio-item completed bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative h-64 overflow-hidden">
+<img alt="Lagoon-style pool winding through planted gardens at the Fairmont Palm Residence, Dubai" class="w-full h-full object-cover" src="assets/images/portfolio/fairmont-palm-residence.jpg" loading="lazy"/>
+<div class="absolute top-4 left-4 bg-ocean-navy-deep/80 backdrop-blur-sm px-3 py-1.5 rounded text-pure-white font-eyebrow-caps text-eyebrow-caps">PALM JUMEIRAH</div>
+</div>
+<div class="p-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest block mb-2">RESIDENTIAL</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-2">Fairmont Palm Residence</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">Landscaped north and south areas, including a lagoon-style pool winding through planted gardens and walkways.</p>
+</div>
+</div>
+<div class="p-6 pt-0 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-ocean-navy-deep font-semibold">Pool &amp; gardens</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">COMPLETED</span>
+</div>
+</div>
+<div class="portfolio-item completed bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative h-64 overflow-hidden">
+<img alt="Themed indoor play area with a yellow submarine climbing structure at the Palm Jumeirah Hotel kids' club" class="w-full h-full object-cover" src="assets/images/portfolio/palm-jumeirah-kids-club.jpg" loading="lazy"/>
+<div class="absolute top-4 left-4 bg-ocean-navy-deep/80 backdrop-blur-sm px-3 py-1.5 rounded text-pure-white font-eyebrow-caps text-eyebrow-caps">PALM JUMEIRAH</div>
+</div>
+<div class="p-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest block mb-2">HOSPITALITY</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-2">Palm Jumeirah Hotel: Kids' Club</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">Themed play areas for the hotel's kids' club, alongside a dedicated kids' pool play area outdoors.</p>
+</div>
+</div>
+<div class="p-6 pt-0 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-ocean-navy-deep font-semibold">Play areas</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">COMPLETED</span>
+</div>
+</div>
+<div class="portfolio-item concept bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between">
+<div>
+<div class="relative h-64 overflow-hidden">
+<img alt="Aerial concept rendering of the proposed Al Ain Zoo and back-of-house development, with waterways, exhibits and planting" class="w-full h-full object-cover" src="assets/images/portfolio/al-ain-zoo-masterplan.jpg" loading="lazy"/>
+<div class="absolute top-4 left-4 bg-ocean-navy-deep/80 backdrop-blur-sm px-3 py-1.5 rounded text-pure-white font-eyebrow-caps text-eyebrow-caps">AL AIN, UAE</div>
+</div>
+<div class="p-6">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-widest block mb-2">CONCEPT DESIGN</span>
+<h3 class="font-headline-md text-headline-md text-ocean-navy-deep mb-2">Al Ain Zoo &amp; Back of House</h3>
+<p class="font-body-sm text-body-sm text-slate-muted leading-relaxed mb-4">Preliminary concept design and aerial perspectives for a proposed area development, with winding waterways, exhibits and planting.</p>
+</div>
+</div>
+<div class="p-6 pt-0 flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-ocean-navy-deep font-semibold">Masterplan &amp; perspectives</span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold">CONCEPT</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="w-full bg-ocean-navy-deep text-pure-white py-margin-lg relative overflow-hidden">
+<div class="absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-champagne-gold/5 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1320px] mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Blueprint Schematic Graphic -->
+<div class="lg:col-span-6 bg-ocean-navy-subtle/80 p-8 rounded-xl shadow-2xl relative">
+<div class="flex items-center justify-between pb-4 mb-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-champagne-gold text-[20px]">architecture</span>
+<span class="font-label-sm text-label-sm text-pure-white uppercase tracking-widest font-mono">ILLUSTRATIVE SECTION</span>
+</div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-lagoon-aqua uppercase tracking-widest">BEACH-ENTRY POOL</span>
+</div>
+<!-- Inline Technical SVG Vector: Cross-Section of Monolithic Beach Pool -->
+<div class="w-full aspect-[16/9] flex items-center justify-center p-4 bg-ocean-navy-deep/60 rounded-lg">
+<svg role="img" aria-label="Illustrative cross-section of a beach-entry pool" class="w-full h-full text-champagne-gold/80" fill="none" stroke="currentColor" viewbox="0 0 600 320">
+<!-- Grid background -->
+<defs>
+<pattern height="20" id="grid" patternunits="userSpaceOnUse" width="20">
+<path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="0.5"></path>
+</pattern>
+</defs>
+<rect fill="url(#grid)" height="320" stroke="none" width="600"></rect>
+<!-- Soil Line & Bedding -->
+<path d="M 20,240 Q 140,240 220,220 T 360,200 T 560,190" stroke="rgba(255,255,255,0.2)" stroke-dasharray="4 4" stroke-width="1.5"></path>
+<!-- Monolithic Shotcrete Pool Shell -->
+<path d="M 40,110 C 90,110 130,130 190,180 C 250,230 330,260 430,260 C 500,260 540,220 570,160" stroke="#D9A93E" stroke-linecap="round" stroke-width="3"></path>
+<path d="M 38,125 C 88,125 126,145 186,195 C 246,245 328,275 430,275 C 502,275 545,233 574,175" stroke="#758599" stroke-dasharray="2 2" stroke-width="1.5"></path>
+<!-- Water Level Wave & Reflection -->
+<path d="M 120,150 Q 250,147 410,150 T 565,150" stroke="#2E8B9A" stroke-width="2"></path>
+<path d="M 120,150 L 565,150" opacity="0.6" stroke="#2E8B9A" stroke-dasharray="3 3" stroke-width="1"></path>
+<!-- Sunken Fire Pit Outlines -->
+<rect fill="rgba(217,169,62,0.1)" height="40" rx="4" stroke="#D9A93E" stroke-width="1.5" width="80" x="420" y="180"></rect>
+<circle cx="460" cy="200" r="10" stroke="#D9A93E" stroke-width="1"></circle>
+<!-- Technical Dimension Markers & Labels -->
+<line opacity="0.4" stroke="#ffffff" stroke-width="1" x1="40" x2="190" y1="95" y2="95"></line>
+<line opacity="0.6" stroke="#ffffff" stroke-width="1" x1="40" x2="40" y1="90" y2="100"></line>
+<line opacity="0.6" stroke="#ffffff" stroke-width="1" x1="190" x2="190" y1="90" y2="100"></line>
+<text fill="#EFDEC1" font-family="Inter" font-size="9" letter-spacing="1" x="75" y="88">ZERO-ENTRY BEACH SLOPE</text>
+<line opacity="0.4" stroke="#ffffff" stroke-width="1" x1="430" x2="570" y1="285" y2="285"></line>
+<text fill="#EFDEC1" font-family="Inter" font-size="9" letter-spacing="1" x="445" y="302">POOL SHELL</text>
+<!-- Hydraulic Return Vector -->
+<circle cx="280" cy="235" fill="#2E8B9A" r="4"></circle>
+<path d="M 280,235 L 280,290" stroke="#2E8B9A" stroke-dasharray="2 2" stroke-width="1"></path>
+<text fill="#7ed3e3" font-family="Inter" font-size="8" x="210" y="305">MAIN DRAIN</text>
+</svg>
+</div>
+<div class="mt-6 pt-4 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+<div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-slate-muted uppercase block">CONCEPT</span>
+<span class="font-label-md text-label-md text-pure-white font-semibold">MASTERPLANS</span>
+</div>
+<div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-slate-muted uppercase block">DOCUMENTATION</span>
+<span class="font-label-md text-label-md text-pure-white font-semibold">IFC LAYOUTS</span>
+</div>
+<div>
+<span class="font-eyebrow-caps text-eyebrow-caps text-slate-muted uppercase block">DELIVERY</span>
+<span class="font-label-md text-label-md text-pure-white font-semibold">SITE SUPERVISION</span>
+</div>
+</div>
+</div>
+<!-- Technical Description & Dossier Download -->
+<div class="lg:col-span-6 flex flex-col pl-0 lg:pl-space-md">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.24em] uppercase block mb-3">DRAWINGS &amp; DOCUMENTATION</span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-pure-white mb-6">
+            Resort-Level Documentation for Private Homes.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container leading-relaxed mb-6">
+            On large UAE projects, every detail is drawn before it's built. Private clients get the same discipline: clear plans that contractors can build from, along with budget estimates and material schedules.
+          </p>
+<ul class="space-y-4 mb-8">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-champagne-gold text-[20px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-surface-container-high">Landscape master plans and aerial perspectives.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-champagne-gold text-[20px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-surface-container-high">Issue-for-construction hardscape and planting layouts.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-champagne-gold text-[20px] mt-0.5">check_circle</span>
+<span class="font-body-md text-body-md text-surface-container-high">Budget estimation and material purchasing support.</span>
+</li>
+</ul>
+<div class="flex flex-col sm:flex-row items-center gap-4">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-lg bg-champagne-gold text-ocean-navy-deep font-label-sm text-label-sm uppercase tracking-widest font-semibold hover:bg-secondary-fixed transition-all duration-300 shadow-lg" href="assets/docs/Michael-Mediante-Portfolio.pdf" target="_blank" rel="noopener">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>DOWNLOAD MICHAEL'S PORTFOLIO (PDF)</span>
+</a>
+<span class="font-eyebrow-caps text-eyebrow-caps text-on-primary-container tracking-wider">PDF · 10 MB</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="w-full bg-ivory-base py-margin-lg">
+<div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+<!-- Dark Luxury Elevation Box -->
+<div class="relative w-full bg-ocean-navy-deep text-pure-white rounded-2xl p-8 lg:p-16 shadow-2xl overflow-hidden">
+<!-- Ambient subtle gold flare -->
+<div class="absolute -top-32 -left-32 w-80 h-80 rounded-full bg-champagne-gold/10 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<div class="lg:col-span-8 flex flex-col">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-champagne-gold"></span>
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.24em] uppercase">CONSULTATION</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-pure-white mb-4">
+              Book a Consultation with Michael Mediante.
+            </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl leading-relaxed mb-8">
+              Talk through your site, your ideas and your budget directly with Michael. Every Mediante project is led by him, from first sketch to final planting.
+            </p>
+<!-- Dual Action CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+<a class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-champagne-gold text-ocean-navy-deep font-label-sm text-label-sm uppercase tracking-widest font-semibold hover:bg-secondary-fixed transition-all duration-300 shadow-md" href="mailto:michael.mediante@gmail.com?subject=Consultation%20request%20%E2%80%93%20Mediante">
+<span>Email Michael</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-transparent text-pure-white font-label-sm text-label-sm uppercase tracking-widest font-semibold hover:bg-pure-white/10 transition-all duration-300" href="https://wa.me/639452996695" target="_blank" rel="noopener">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Message on WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Trust Badges & Guarantee Pillar -->
+<div class="lg:col-span-4 bg-ocean-navy-subtle/80 p-8 rounded-xl flex flex-col gap-6">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-champagne-gold/20 flex items-center justify-center text-champagne-gold">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-pure-white uppercase font-semibold">18+ Years Experience</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Landscape architecture in the UAE</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-champagne-gold/20 flex items-center justify-center text-champagne-gold">
+<span class="material-symbols-outlined text-[20px]">architecture</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-pure-white uppercase font-semibold">Concept to Completion</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Design, drawings, budgets and site supervision</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-full bg-champagne-gold/20 flex items-center justify-center text-champagne-gold">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-pure-white uppercase font-semibold">Zamboanga City</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Studio based in the Philippines</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('#portfolio-filters button');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+
+          // Toggle button styles
+          filterButtons.forEach(b => {
+            b.classList.remove('bg-ocean-navy-deep', 'text-pure-white', 'shadow-sm');
+            b.classList.add('text-ocean-navy-deep', 'hover:bg-surface-container-high');
+          });
+          btn.classList.remove('text-ocean-navy-deep', 'hover:bg-surface-container-high');
+          btn.classList.add('bg-ocean-navy-deep', 'text-pure-white', 'shadow-sm');
+          filterButtons.forEach(b => b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'));
+
+          // Filter elements
+          portfolioItems.forEach(item => {
+            if (filter === 'all' || item.classList.contains(filter)) {
+              item.style.display = '';
+            } else {
+              item.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+</main>
+<footer class="w-full bg-ocean-navy-deep text-pure-white pt-margin-lg pb-margin-md">
+<div class="max-w-[1320px] mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter-lg pb-margin-md">
+<div class="lg:col-span-5 flex flex-col pr-0 lg:pr-space-lg">
+<a class="flex flex-col self-start mb-space-md" href="index.html">
+<img alt="" class="h-8 w-auto self-start" src="assets/images/mediante-emblem.png"/>
+<span class="font-headline-md text-xl leading-none tracking-[0.22em] text-pure-white mt-1">MEDIANTE</span>
+<span class="mt-1.5 border-t border-champagne-gold pt-1 font-label-sm text-[8px] leading-none tracking-[0.26em] text-champagne-gold">LANDSCAPE &amp; POOL DESIGN CO.</span>
+</a>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed max-w-md">Landscape architecture and beach-entry pool design led by Michael Mediante, drawing on 18+ years of resort, hotel and residential work in the UAE. Now based in Zamboanga City.</p>
+</div>
+<div class="lg:col-span-3 flex flex-col">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.22em] uppercase mb-space-md">Explore</span>
+<nav class="flex flex-col gap-space-sm" aria-label="Footer">
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="index.html#portfolio">Portfolio</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="services.html">Services</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="beach-pool.html">Beach Pools</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="founder-story.html">Founder</a>
+<a class="font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="beach-pool.html#process">Process</a>
+</nav>
+</div>
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<span class="font-eyebrow-caps text-eyebrow-caps text-champagne-gold tracking-[0.22em] uppercase">Contact</span>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-pure-white uppercase tracking-wider">Studio</span>
+<p class="font-body-sm text-body-sm text-on-primary-container">Zamboanga City, Philippines</p>
+</div>
+<div class="flex flex-col gap-space-sm">
+<a class="inline-flex items-center gap-2 font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="mailto:michael.mediante@gmail.com?subject=Consultation%20request%20%E2%80%93%20Mediante"><span class="material-symbols-outlined text-[18px] text-champagne-gold">mail</span>michael.mediante@gmail.com</a>
+<a class="inline-flex items-center gap-2 font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="https://wa.me/639452996695" target="_blank" rel="noopener"><span class="material-symbols-outlined text-[18px] text-champagne-gold">chat</span>WhatsApp</a>
+<a class="inline-flex items-center gap-2 font-body-sm text-body-sm text-on-primary-container hover:text-champagne-gold transition-colors" href="assets/docs/Michael-Mediante-Portfolio.pdf" target="_blank" rel="noopener"><span class="material-symbols-outlined text-[18px] text-champagne-gold">download</span>Michael's portfolio (PDF)</a>
+</div>
+</div>
+</div>
+<div class="pt-space-md border-t border-pure-white/10 flex flex-col md:flex-row items-center justify-between gap-space-sm">
+<p class="font-body-sm text-body-sm text-on-primary-container">&copy; 2026 Mediante Landscape &amp; Pool Design Co. All rights reserved.</p>
+<span class="font-eyebrow-caps text-eyebrow-caps text-on-primary-container uppercase">Resort-grade design, locally delivered.</span>
+</div>
 </div>
 </footer>
-<script>
-        // Reveal animation on scroll
-        const observerOptions = {
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('active');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.reveal-on-scroll').forEach((el) => observer.observe(el));
-
-        // Smooth reveal for images
-        document.querySelectorAll('img').forEach(img => {
-            img.style.opacity = '0';
-            img.style.transition = 'opacity 1s ease-in-out';
-            img.onload = () => img.style.opacity = '1';
-        });
-    </script>
 </body></html>
