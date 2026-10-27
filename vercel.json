@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)\\.md",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/assets/images/portfolio/jumeirah-beachfront-sunset.jpg",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
+}
